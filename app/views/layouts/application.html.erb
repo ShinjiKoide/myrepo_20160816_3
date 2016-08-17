@@ -1,11 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>ToyApp</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <% author = "小出" %>
+    <%= "作成者は" + author + "です" %>
   </head>
 
   <body>
